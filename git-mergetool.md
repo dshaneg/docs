@@ -45,7 +45,7 @@ To set up your external merge tool, you'll need to add some lines. First, we'll 
 ```
 
 This section defines the tool's name and tells git how to call it. You'll also notice that we can't trust it to give us a valid exit code.
-That's OK, it doesn't mean the tool sucks, it just means somebody got lazy. (DiffMerge does not shirk this responsibility BTW)
+That's OK. It doesn't mean the tool sucks; it just means somebody got lazy. (DiffMerge does not shirk this responsibility BTW)
 
 The .gitconfig file allows you to declare as many mergetools as you want. All you need to do is give each one a different name in the
 section header. More on this later...
